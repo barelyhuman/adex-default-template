@@ -5,7 +5,7 @@ Default JS Template for Quickstart with Adex
 ## Usage
 
 ```sh
-$ npx degit barelyhuman/adex-template <project-name>
+$ npx degit barelyhuman/adex-default-template <project-name>
 ```
 
 ## License 
