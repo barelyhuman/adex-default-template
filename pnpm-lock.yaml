@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.0.0-alpha.9
     version: 1.0.0-alpha.9
   adex:
-    specifier: ^0.0.1-beta.2
-    version: 0.0.1-beta.2(vite@5.0.0)
+    specifier: ^0.0.1-beta.4
+    version: 0.0.1-beta.4(vite@5.0.0)
   nanoid:
     specifier: ^5.0.4
     version: 5.0.4
@@ -504,8 +504,8 @@ packages:
     dependencies:
       vite: 5.0.0
 
-  /adex@0.0.1-beta.2(vite@5.0.0):
-    resolution: {integrity: sha512-/5UoPSNepZqVdWaUJHrbRXSBmifiH8fmMFqVQh2iasWHi2L2vUjq9cRLMn3XcAatqCgm9APU8317eOMs5qNOaA==}
+  /adex@0.0.1-beta.4(vite@5.0.0):
+    resolution: {integrity: sha512-r9IH4SNKocx07ePEqk+6Y4JILfH/oyhQBSMKMEfxHmR7Sm++5+JCY5E40ln2GmaK+A+2WulCuPZQjV1j4jgpUw==}
     peerDependencies:
       vite: ^5.0.10
     dependencies:

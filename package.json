@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@arrow-js/core": "1.0.0-alpha.9",
-    "adex": "^0.0.1-beta.2",
+    "adex": "^0.0.1-beta.4",
     "nanoid": "^5.0.4"
   }
 }
