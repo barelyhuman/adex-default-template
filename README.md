@@ -1,11 +1,21 @@
 # adex-template
 
-Default JS Template for Quickstart with Adex
+Minimal and Default JS Template for Adex
+
+## Features
+
+- Tailwind (Styles)
+- Adex (Monolith)
 
 ## Usage
 
 ```sh
-$ npx adex <project-name>
+; npx degit barelyhuman/adex-default-template <project-name>
+; cd <project-name>
+; npm i 
+# or yarn install 
+# or pnpm install
+; npm run dev
 ```
 
 ## License
