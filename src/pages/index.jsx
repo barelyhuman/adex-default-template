@@ -77,18 +77,19 @@ const Footer = () => {
   return (
     <div class="border-t border-neutral-100 dark:border-t-neutral-800 fixed flex bottom-0 left-0 right-0 w-full">
       <div class="p-4 w-full flex items-center">
-        <div class="flex ml-auto p-1 z-10 bg-neutral-100 dark:bg-neutral-700 border dark:border-neutral-800 items-center justify-center rounded-md">
+        <div class="flex shadow-inner shadow-neutral-200/50 dark:shadow-neutral-700 ml-auto p-1 z-10 bg-neutral-100 dark:bg-neutral-700 border-2 dark:border-neutral-800 items-center justify-center rounded-md">
           {THEME_OPTIONS.map((d) => {
             return (
               <div key={d.id} class="hover:cursor-pointer relative flex">
                 {d.id === theme && (
                   <motion.div
                     layoutId="theme-background"
-                    className="absolute top-0 left-0 w-6 h-6 p-1 rounded-sm bg-neutral-200 dark:bg-neutral-800 -z-10"
+                    // bg-neutral-200 dark:bg-neutral-800
+                    className="absolute top-0 left-0 w-6 h-6 p-1 rounded-md bg-gradient-to-t from-neutral-50 to-neutral-300 dark:from-neutral-600 dark:to-neutral-800 -z-1"
                   />
                 )}
                 <div
-                  class="p-1 h-6 text-neutral-600 dark:text-neutral-400 w-6 rounded-sm inline-flex items-center justify-center "
+                  class="p-1 h-6 text-neutral-600 dark:text-neutral-400 w-6 rounded-md inline-flex items-center justify-center "
                   onClick={() => setTheme(d.id)}
                 >
                   {d.icon}
