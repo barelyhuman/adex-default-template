@@ -12,14 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@preachjs/themes": "^0.0.6",
     "@preact/preset-vite": "^2.9.0",
-    "adex": "*",
-    "preact": "^10.22.1"
+    "adex": "0.0.19-alpha.4",
+    "motion": "^12.6.2",
+    "preact": "^10.22.1",
+    "react": "npm:@preact/compat",
+    "react-dom": "npm:@preact/compat"
   },
   "devDependencies": {
+    "adex-adapter-node": "^0.0.18",
     "autoprefixer": "^10.4.19",
     "tailwindcss": "^3.4.5",
-    "vite": "^5.3.3",
-    "adex-adapter-node": "^0.0.17"
+    "vite": "^5.3.3"
   }
 }

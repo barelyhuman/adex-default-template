@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html[data-theme="light"] {
+  @apply bg-neutral-50 text-neutral-900;
+}
 
-body{
-    @apply text-neutral-50 bg-neutral-900;
+html[data-theme="dark"] {
+  @apply text-neutral-50 bg-neutral-900;
 }
